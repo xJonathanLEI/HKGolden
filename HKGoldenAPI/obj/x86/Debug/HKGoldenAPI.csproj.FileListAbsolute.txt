@@ -1,0 +1,17 @@
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\bin\x86\Debug\HKGoldenAPI.dll
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\bin\x86\Debug\HKGoldenAPI.pdb
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\bin\x86\Debug\HKGoldenAPI.pri
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\HKGoldenAPI.csprojResolveAssemblyReference.cache
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\HKGoldenAPI.dll
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\HKGoldenAPI.pdb
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\priconfig.xml
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\priconfig.xml.intermediate
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\layout.resfiles
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\layout.resfiles.intermediate
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\resources.resfiles
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\resources.resfiles.intermediate
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\pri.resfiles
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\pri.resfiles.intermediate
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\qualifiers.txt
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\qualifiers.txt.intermediate
+c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

@@ -1,0 +1,2 @@
+c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\HKGolden.csproj;x86
+c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\HKGoldenAPI.csproj;x86
