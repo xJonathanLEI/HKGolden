@@ -8,11 +8,11 @@ HKGolden is one of the most visited websites in Hong Kong. However, there is nei
 HKGolden does not provide API access to developers, and that's why I will make my own API. To have an app working, the API must be finished first. It takes time, but it's worth the wait.
 
 #Great! How can I help?
-If you don't know anything about programming, it's fine. You can buy me (or maybe my team in the future) a cup coffee since I will not earn a single penny from this app.
+If you don't know anything about programming, it's fine. You can buy me (or maybe my team in the future) a cup of coffee since I won't earn a single penny from this app.
 If you are a developer, I am glad you are here. You can clone the repo and look at the code. This app is still at its very early stage, and I'm sure you can help a lot. Please contact me so that I don't have to fight alone. Thanks.
 
 #About Me
 No I am not a software engineer. No I don't study computer science. I study Accounting and Finance at the university. But yes, I like the simplicity of Windows Phone. I don't want it to die. I am here to help save it. Have faith, and wait.
 
 #How to contact me
-By mail:xJonathan@outlook.com
+By mail: xJonathan@outlook.com
