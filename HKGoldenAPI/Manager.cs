@@ -34,5 +34,10 @@ namespace HKGoldenAPI
                 throw new NetworkError();
             }
         }
+
+        public async Task LoadHomePage()
+        {
+
+        }
     }
 }
