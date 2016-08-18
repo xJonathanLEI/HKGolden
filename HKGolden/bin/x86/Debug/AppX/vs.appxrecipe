@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>51c677db-d5ea-4a0e-abe2-25ded166d476</PackageIdentityName>
     <PackageIdentityPublisher>CN=xJona</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-08-17T07:03:50.041</Modified>
+      <Modified>2016-08-18T02:13:53.966</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\bin\x86\Debug\HKGolden.exe">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x86\Debug\HKGolden.exe">
       <PackagePath>entrypoint\HKGolden.exe</PackagePath>
-      <Modified>2016-08-17T07:03:49.449</Modified>
+      <Modified>2016-08-18T02:13:51.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\.nuget\packages\HtmlAgilityPack\1.4.9.5\lib\NetCore45\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -452,49 +452,49 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\xJona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGoldenAPI\bin\x86\Debug\HKGoldenAPI.dll">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\Debug\HKGoldenAPI.dll">
       <PackagePath>HKGoldenAPI.dll</PackagePath>
-      <Modified>2016-08-17T07:03:48.155</Modified>
+      <Modified>2016-08-18T02:13:15.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-08-17T05:52:46.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\bin\x86\Debug\HKGolden.xr.xml">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x86\Debug\HKGolden.xr.xml">
       <PackagePath>HKGolden.xr.xml</PackagePath>
       <Modified>2016-08-17T06:47:42.705</Modified>
     </AppxPackagedFile>
@@ -502,13 +502,13 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-08-12T21:12:47.767</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-08-17T06:47:45.104</Modified>
+      <Modified>2016-08-18T02:13:53.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\xjona\OneDrive\Visual Studio 2015\Projects\HKGolden\HKGolden\bin\x86\Debug\Core\HKGolden.exe">
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x86\Debug\Core\HKGolden.exe">
       <PackagePath>HKGolden.exe</PackagePath>
-      <Modified>2016-08-17T07:03:50.036</Modified>
+      <Modified>2016-08-18T02:13:53.957</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

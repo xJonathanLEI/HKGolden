@@ -1,0 +1,17 @@
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\x64\Debug\HKGoldenAPI.dll
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\x64\Debug\HKGoldenAPI.pdb
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\x64\Debug\HKGoldenAPI.pri
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\HKGoldenAPI.csprojResolveAssemblyReference.cache
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\HKGoldenAPI.dll
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\HKGoldenAPI.pdb
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\priconfig.xml
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\layout.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\resources.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\pri.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\qualifiers.txt
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
