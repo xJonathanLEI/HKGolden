@@ -112,7 +112,11 @@
     <Compile Include="Manager.cs" />
     <Compile Include="NetworkHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs" />
+    <Compile Include="Types\ArticleRelated.cs" />
+    <Compile Include="Types\RegisterForm.cs" />
     <Compile Include="Types\TermsOfService.cs" />
+    <Compile Include="Utilities.cs" />
     <EmbeddedResource Include="Properties\HKGoldenAPI.rd.xml" />
   </ItemGroup>
   <ItemGroup />

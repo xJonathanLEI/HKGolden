@@ -1,0 +1,2 @@
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\HKGolden.csproj;x64
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\HKGoldenAPI.csproj;x64

@@ -1,0 +1,16 @@
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\ARM\Debug\HKGoldenAPI.dll
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\ARM\Debug\HKGoldenAPI.pdb
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\ARM\Debug\HKGoldenAPI.pri
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\HKGoldenAPI.dll
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\HKGoldenAPI.pdb
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\priconfig.xml
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\layout.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\resources.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\pri.resfiles
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\qualifiers.txt
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
