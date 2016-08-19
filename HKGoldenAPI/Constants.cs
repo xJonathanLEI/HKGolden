@@ -14,7 +14,7 @@ namespace HKGoldenAPI
 
         public static string URL_POST(string forumID, string messageID, string pageID = "1")
         {
-            return "http://forum" + forumID + ".hkgolden.com/view.aspx?message=" + messageID + "?page=" + pageID;
+            return "http://forum" + forumID + ".hkgolden.com/view.aspx?message=" + messageID + "&page=" + pageID;
         }
     }
 }

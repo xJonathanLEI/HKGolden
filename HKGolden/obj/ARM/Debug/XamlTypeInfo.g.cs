@@ -132,21 +132,27 @@ namespace HKGolden.HKGolden_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "HKGolden.ArticleDisplayItem";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "HKGoldenAPI.Types.Article";
             _typeNameTable[3] = "Object";
             _typeNameTable[4] = "HKGolden.MainPage";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[6] = "HKGolden.PostEntryDisplayItem";
+            _typeNameTable[7] = "HKGoldenAPI.Types.PostEntry";
+            _typeNameTable[8] = "HKGolden.ViewPostPage";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::HKGolden.ArticleDisplayItem);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::HKGoldenAPI.Types.Article);
             _typeTable[3] = typeof(global::System.Object);
             _typeTable[4] = typeof(global::HKGolden.MainPage);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[6] = typeof(global::HKGolden.PostEntryDisplayItem);
+            _typeTable[7] = typeof(global::HKGoldenAPI.Types.PostEntry);
+            _typeTable[8] = typeof(global::HKGolden.ViewPostPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -184,6 +190,9 @@ namespace HKGolden.HKGolden_XamlTypeInfo
         private object Activate_0_ArticleDisplayItem() { return new global::HKGolden.ArticleDisplayItem(); }
         private object Activate_2_Article() { return new global::HKGoldenAPI.Types.Article(); }
         private object Activate_4_MainPage() { return new global::HKGolden.MainPage(); }
+        private object Activate_6_PostEntryDisplayItem() { return new global::HKGolden.PostEntryDisplayItem(); }
+        private object Activate_7_PostEntry() { return new global::HKGoldenAPI.Types.PostEntry(); }
+        private object Activate_8_ViewPostPage() { return new global::HKGolden.ViewPostPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -227,6 +236,27 @@ namespace HKGolden.HKGolden_XamlTypeInfo
             case 5:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 6:   //  HKGolden.PostEntryDisplayItem
+                userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_6_PostEntryDisplayItem;
+                userType.AddMemberName("displayEntry");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  HKGoldenAPI.Types.PostEntry
+                userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 8:   //  HKGolden.ViewPostPage
+                userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_ViewPostPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -242,6 +272,16 @@ namespace HKGolden.HKGolden_XamlTypeInfo
             var that = (global::HKGolden.ArticleDisplayItem)instance;
             that.displayArticle = (global::HKGoldenAPI.Types.Article)Value;
         }
+        private object get_1_PostEntryDisplayItem_displayEntry(object instance)
+        {
+            var that = (global::HKGolden.PostEntryDisplayItem)instance;
+            return that.displayEntry;
+        }
+        private void set_1_PostEntryDisplayItem_displayEntry(object instance, object Value)
+        {
+            var that = (global::HKGolden.PostEntryDisplayItem)instance;
+            that.displayEntry = (global::HKGoldenAPI.Types.PostEntry)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -255,6 +295,12 @@ namespace HKGolden.HKGolden_XamlTypeInfo
                 xamlMember = new global::HKGolden.HKGolden_XamlTypeInfo.XamlMember(this, "displayArticle", "HKGoldenAPI.Types.Article");
                 xamlMember.Getter = get_0_ArticleDisplayItem_displayArticle;
                 xamlMember.Setter = set_0_ArticleDisplayItem_displayArticle;
+                break;
+            case "HKGolden.PostEntryDisplayItem.displayEntry":
+                userType = (global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HKGolden.PostEntryDisplayItem");
+                xamlMember = new global::HKGolden.HKGolden_XamlTypeInfo.XamlMember(this, "displayEntry", "HKGoldenAPI.Types.PostEntry");
+                xamlMember.Getter = get_1_PostEntryDisplayItem_displayEntry;
+                xamlMember.Setter = set_1_PostEntryDisplayItem_displayEntry;
                 break;
             }
             return xamlMember;
