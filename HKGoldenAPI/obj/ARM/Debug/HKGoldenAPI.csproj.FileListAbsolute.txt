@@ -14,3 +14,4 @@ C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\pri.resfiles.inte
 C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\qualifiers.txt
 C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\qualifiers.txt.intermediate
 C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\obj\ARM\Debug\HKGoldenAPI.csprojResolveAssemblyReference.cache

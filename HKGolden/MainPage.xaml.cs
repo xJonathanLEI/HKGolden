@@ -45,6 +45,7 @@ namespace HKGolden
                 articleGV.Items.Add(GVI);
             }
             Page_SizeChanged(null, null);
+            await mgr.LoadPost("12", "6505048");
         }
 
         private void Page_SizeChanged(object sender, SizeChangedEventArgs e)

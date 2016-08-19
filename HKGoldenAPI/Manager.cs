@@ -24,6 +24,10 @@ namespace HKGoldenAPI
             netHandler = new NetworkHandler();
         }
 
+        /// <summary>
+        /// Load the terms of service of the HKGolden
+        /// </summary>
+        /// <returns>TermsOfService object containing the website TOS</returns>
         public async Task<TermsOfService> GetTermsOfServiceAsync()
         {
             try
@@ -44,7 +48,7 @@ namespace HKGoldenAPI
         /// <returns></returns>
         public async Task LoadHomePage()
         {
-          homepageGallery = new List<GalleryItem>();
+            homepageGallery = new List<GalleryItem>();
             homepageArticles = new List<Article>();
             HtmlDocument homepage = await netHandler.GETRequestAsDocumentAsync(Constants.URL_HOMEPAGE);
             HtmlNode galleryTable = homepage.DocumentNode.Descendants("table").Where(t => t.Attributes.Contains("width") && t.Attributes["width"].Value == "668px").ElementAt(0);
@@ -61,5 +65,18 @@ namespace HKGoldenAPI
                 homepageArticles.Add(new Article(tr.Descendants("table").ElementAt(0)));
             }
          }
+
+        /// <summary>
+        /// Load the meta info and the first page of a post.
+        /// </summary>
+        /// <param name="forumID">Forum ID</param>
+        /// <param name="messageID">Message ID of the post</param>
+        /// <returns>The Post object with meta and the first page loaded</returns>
+        public async Task<Post> LoadPost(string forumID, string messageID)
+        {
+            Post post = new Post();
+            await post.LoadPost(forumID, messageID);
+            return post;
+        }
     }
 }
