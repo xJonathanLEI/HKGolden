@@ -46,11 +46,11 @@ namespace HKGolden
                         case "a":
                             if (n.Descendants("img").Count() == 0)
                             {
-                                paragraph.Inlines.Add(new Run() { Text = "[LINK " + n.Attributes["href"].Value + "]" });
+                                paragraph.Inlines.Add(new InlineUIContainer() { Child = new HyperlinkButton() { Padding = new Thickness(0, 0, 0, -3), Foreground = new SolidColorBrush() { Color = new Windows.UI.Color() { R = 0xAA, G = 0xFF, B = 0xAA, A = 0xFF} }, FontSize = 18, NavigateUri = new Uri(n.Attributes["href"].Value), Content = n.Attributes["href"].Value} });
                             }
                             else
                             {
-                                paragraph.Inlines.Add(new Run() { Text = "[IMG]" });
+                                paragraph.Inlines.Add(new InlineUIContainer() { Child = new Image() { Stretch = Stretch.UniformToFill, MaxWidth = 300, Source = new BitmapImage(new Uri(n.Descendants("img").ElementAt(0).Attributes["src"].Value)) } });
                             }
                             break;
                         default:

@@ -45,7 +45,7 @@ namespace HKGolden
             if (post == null)
             {
                 HKGoldenAPI.Manager mgr = new HKGoldenAPI.Manager();
-                post = await mgr.LoadPost("12", "6497824");
+                post = await mgr.LoadPost("8", "6505048");
                 txtTitle.Text = post.postTitle;
                 loadedPageIndex = 0;
             }else
@@ -65,6 +65,7 @@ namespace HKGolden
                 noMorePage = true;
                 return;
             }
+            //SP.Children.Clear();
             foreach (PostEntry entry in post.pages[loadedPageIndex].postEntries)
             {
                 SP.Children.Add(new PostEntryDisplayItem() { displayEntry = entry, Margin = new Thickness(3) , HorizontalAlignment = HorizontalAlignment.Stretch});
