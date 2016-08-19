@@ -28,7 +28,7 @@ namespace HKGoldenAPI.Types
         public async Task LoadPost(string forumID, string messageID, int pageID = 1)
         {
             this.forumID = forumID; this.messageID = messageID;
-            HtmlDocument postDocument = await netHandler.GETRequestAsDocumentAsync(Constants.URL_POST(forumID, messageID));
+            HtmlDocument postDocument = await netHandler.GETRequestAsDocumentAsync(Constants.URL_POST(forumID, messageID, pageID.ToString()));
             if (pages == null)
             {
                 int numberOfPages = postDocument.DocumentNode.Descendants("select").Where(s => s.Attributes.Contains("name") && s.Attributes["name"].Value == "page").ElementAt(0).Descendants("option").Count();

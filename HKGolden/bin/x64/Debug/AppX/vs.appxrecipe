@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-08-19T02:38:34.424</Modified>
+      <Modified>2016-08-19T02:48:47.703</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\HKGolden.exe">
       <PackagePath>entrypoint\HKGolden.exe</PackagePath>
-      <Modified>2016-08-19T02:38:33.445</Modified>
+      <Modified>2016-08-19T02:48:46.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\.nuget\packages\HtmlAgilityPack\1.4.9.5\lib\NetCore45\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -454,7 +454,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\x64\Debug\HKGoldenAPI.dll">
       <PackagePath>HKGoldenAPI.dll</PackagePath>
-      <Modified>2016-08-19T02:38:32.103</Modified>
+      <Modified>2016-08-19T02:48:44.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -512,7 +512,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\Core\HKGolden.exe">
       <PackagePath>HKGolden.exe</PackagePath>
-      <Modified>2016-08-19T02:38:34.414</Modified>
+      <Modified>2016-08-19T02:48:47.694</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
