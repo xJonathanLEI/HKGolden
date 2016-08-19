@@ -7,11 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
                           >
-
-    <ScrollViewer Background="#FF222222">
-        <StackPanel x:ConnectionId='2' Name="SP">
-            <TextBlock x:ConnectionId='3' Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
-        </StackPanel>
-    </ScrollViewer>
+    <RelativePanel Background="#FF222222">
+        <TextBlock x:ConnectionId='2' Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
+        <ScrollViewer x:ConnectionId='3' RelativePanel.Below="txtTitle" Name="SV"                                                            >
+            <StackPanel x:ConnectionId='4' Name="SP">
+            </StackPanel>
+        </ScrollViewer>
+    </RelativePanel>
 </Page>
 

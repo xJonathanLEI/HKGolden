@@ -7,10 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Loading="Page_Loading">
-
-    <ScrollViewer Background="#FF222222">
-        <StackPanel Name="SP">
-            <TextBlock Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
-        </StackPanel>
-    </ScrollViewer>
+    <RelativePanel Background="#FF222222">
+        <TextBlock Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
+        <ScrollViewer RelativePanel.Below="txtTitle" Name="SV" ViewChanged="SV_ViewChanged" ViewChanging="SV_ViewChanging">
+            <StackPanel Name="SP">
+            </StackPanel>
+        </ScrollViewer>
+    </RelativePanel>
 </Page>

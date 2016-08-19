@@ -20,9 +20,9 @@ namespace HKGoldenAPI.Types
             netHandler = new NetworkHandler();
         }
 
-        public async Task LoadPost()
+        public async Task LoadPost(int pageID = 1)
         {
-            await LoadPost(forumID, messageID);
+            await LoadPost(forumID, messageID, pageID);
         }
 
         public async Task LoadPost(string forumID, string messageID, int pageID = 1)
@@ -59,6 +59,7 @@ namespace HKGoldenAPI.Types
                 int minute = Convert.ToInt32(Time);
                 pages[pageIndex].postEntries.Last().postTime = new DateTime(year, month, day, hour, minute, 0);
             }
+            pages[pageIndex].pageLoaded = true;
         }
     }
 
