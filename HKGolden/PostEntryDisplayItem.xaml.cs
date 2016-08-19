@@ -25,7 +25,7 @@ namespace HKGolden
                 entry = value;
                 txtUsername.Text = entry.entryAuthor.nickname;
                 txtTime.Text = entry.postTime.ToString("yyyy-MM-dd HH:mm");
-                txtContent.Text = entry.entryContent;
+                SP.Children.Add(PostRenderer.RenderHTML(entry.entryContent));
             } }
 
         public PostEntryDisplayItem()

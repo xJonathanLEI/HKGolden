@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HKGoldenAPI
 {
-    internal static class Utilities
+    public static class Utilities
     {
         public static string ReadUntil(ref string Str, string xStr)
         {

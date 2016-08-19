@@ -11,6 +11,7 @@
         <TextBlock Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
         <ScrollViewer RelativePanel.Below="txtTitle" Name="SV" ViewChanged="SV_ViewChanged" ViewChanging="SV_ViewChanging">
             <StackPanel Name="SP">
+                <Image Source="res/stickers/hehe.gif" />
             </StackPanel>
         </ScrollViewer>
     </RelativePanel>

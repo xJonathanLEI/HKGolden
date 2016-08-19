@@ -9,11 +9,10 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <StackPanel Background="#88DDDDDD">
+    <StackPanel Name="SP" Background="#88DDDDDD">
         <RelativePanel Margin="0,8,0,0">
             <TextBlock Name="txtUsername" Margin="10,0,0,0" Text="USERNAME" Foreground="#FFABCDEF" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
             <TextBlock Name="txtTime" Margin="0,0,10,0" Text="TIME" Foreground="#FFAAAAAA" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
         </RelativePanel>
-        <TextBlock Margin="10" FontSize="18" Grid.Row="1" Name="txtContent" Text="CONTENT" TextWrapping="Wrap" Foreground="White" />
     </StackPanel>
 </UserControl>

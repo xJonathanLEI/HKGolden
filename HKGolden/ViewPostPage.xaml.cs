@@ -45,7 +45,7 @@ namespace HKGolden
             if (post == null)
             {
                 HKGoldenAPI.Manager mgr = new HKGoldenAPI.Manager();
-                post = await mgr.LoadPost("12", "6505048");
+                post = await mgr.LoadPost("12", "6507545");
                 txtTitle.Text = post.postTitle;
                 loadedPageIndex = 0;
             }else
@@ -67,7 +67,7 @@ namespace HKGolden
             }
             foreach (PostEntry entry in post.pages[loadedPageIndex].postEntries)
             {
-                SP.Children.Add(new PostEntryDisplayItem() { displayEntry = entry, Margin = new Thickness(3) });
+                SP.Children.Add(new PostEntryDisplayItem() { displayEntry = entry, Margin = new Thickness(3) , HorizontalAlignment = HorizontalAlignment.Stretch});
             }
             if (loadedPageIndex == post.pages.Count - 1)
             {
