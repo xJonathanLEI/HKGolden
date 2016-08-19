@@ -57,6 +57,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
       <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="ViewChanged" />
       <RootEvent Name="ViewChanging" />
     </RootType>
@@ -64,6 +65,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Name" />
       <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
       <RootProperty Name="Name" />

@@ -370,8 +370,140 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\101035.jpg">
-      <PackagePath>Res\101035.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\%40.gif">
+      <PackagePath>Res\stickers\%40.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\369.gif">
+      <PackagePath>Res\stickers\369.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\adore.gif">
+      <PackagePath>Res\stickers\adore.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\agree.gif">
+      <PackagePath>Res\stickers\agree.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\angel.gif">
+      <PackagePath>Res\stickers\angel.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\angry.gif">
+      <PackagePath>Res\stickers\angry.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\ass.gif">
+      <PackagePath>Res\stickers\ass.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\banghead.gif">
+      <PackagePath>Res\stickers\banghead.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\biggrin.gif">
+      <PackagePath>Res\stickers\biggrin.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bomb.gif">
+      <PackagePath>Res\stickers\bomb.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bouncer.gif">
+      <PackagePath>Res\stickers\bouncer.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bouncy.gif">
+      <PackagePath>Res\stickers\bouncy.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bye.gif">
+      <PackagePath>Res\stickers\bye.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\censored.gif">
+      <PackagePath>Res\stickers\censored.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\chicken.gif">
+      <PackagePath>Res\stickers\chicken.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\clown.gif">
+      <PackagePath>Res\stickers\clown.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\cry.gif">
+      <PackagePath>Res\stickers\cry.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\dead.gif">
+      <PackagePath>Res\stickers\dead.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\devil.gif">
+      <PackagePath>Res\stickers\devil.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\donno.gif">
+      <PackagePath>Res\stickers\donno.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\fire.gif">
+      <PackagePath>Res\stickers\fire.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\flowerface.gif">
+      <PackagePath>Res\stickers\flowerface.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\frown.gif">
+      <PackagePath>Res\stickers\frown.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\good.gif">
+      <PackagePath>Res\stickers\good.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\hehe.gif">
+      <PackagePath>Res\stickers\hehe.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\hoho.gif">
+      <PackagePath>Res\stickers\hoho.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kill.gif">
+      <PackagePath>Res\stickers\kill.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kill2.gif">
+      <PackagePath>Res\stickers\kill2.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kiss.gif">
+      <PackagePath>Res\stickers\kiss.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\love.gif">
+      <PackagePath>Res\stickers\love.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\no.gif">
+      <PackagePath>Res\stickers\no.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\offtopic.gif">
+      <PackagePath>Res\stickers\offtopic.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\oh.gif">
+      <PackagePath>Res\stickers\oh.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\photo.gif">
+      <PackagePath>Res\stickers\photo.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\shocking.gif">
+      <PackagePath>Res\stickers\shocking.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\slick.gif">
+      <PackagePath>Res\stickers\slick.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\smile.gif">
+      <PackagePath>Res\stickers\smile.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\sosad.gif">
+      <PackagePath>Res\stickers\sosad.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\surprise.gif">
+      <PackagePath>Res\stickers\surprise.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\tongue.gif">
+      <PackagePath>Res\stickers\tongue.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wink.gif">
+      <PackagePath>Res\stickers\wink.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wonder.gif">
+      <PackagePath>Res\stickers\wonder.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wonder2.gif">
+      <PackagePath>Res\stickers\wonder2.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\yipes.gif">
+      <PackagePath>Res\stickers\yipes.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\z.gif">
+      <PackagePath>Res\stickers\z.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\ARM\Debug\HKGolden.xr.xml">
       <PackagePath>HKGolden.xr.xml</PackagePath>

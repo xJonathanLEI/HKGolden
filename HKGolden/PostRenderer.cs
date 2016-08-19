@@ -9,6 +9,7 @@ using Windows.UI.Xaml;
 using HKGoldenAPI;
 using Windows.UI.Xaml.Media;
 using HtmlAgilityPack;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace HKGolden
 {
@@ -33,7 +34,14 @@ namespace HKGolden
                             paragraph.Inlines.Add(new Run() { Text = n.InnerText });
                             break;
                         case "img":
-                            paragraph.Inlines.Add(new Run() { Text = "[EMOJI " + n.Attributes["alt"].Value + "]" });
+                            if (n.Attributes.Contains("alt"))
+                            {
+                                string emoji = n.Attributes["src"].Value;
+                                emoji = emoji.Substring(emoji.LastIndexOf("/") + 1);
+                                paragraph.Inlines.Add(new InlineUIContainer() { Child = new Image() { Stretch = Stretch.None, Source = new BitmapImage(new Uri("ms-appx:///res/stickers/" + emoji, UriKind.Absolute)) } });
+                            }
+                            else
+                                paragraph.Inlines.Add(new InlineUIContainer() { Child = new Image() { Stretch = Stretch.None, Source = new BitmapImage(new Uri(Constants.URL_HOMEPAGE + n.Attributes["src"].Value)) } });
                             break;
                         case "a":
                             if (n.Descendants("img").Count() == 0)
@@ -42,7 +50,7 @@ namespace HKGolden
                             }
                             else
                             {
-                                paragraph.Inlines.Add(new Run() { Text = "[IMG " + n.Descendants("img").ElementAt(0).Attributes["src"].Value + "]" });
+                                paragraph.Inlines.Add(new Run() { Text = "[IMG]" });
                             }
                             break;
                         default:

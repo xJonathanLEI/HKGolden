@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HKGoldenAPI
 {
-    static class Constants
+    public static class Constants
     {
         public const string URL_HOMEPAGE = "http://www.hkgolden.com";
         public const string URL_TERMSOFSERVICE = "http://www.hkgolden.com/members/tos.aspx";

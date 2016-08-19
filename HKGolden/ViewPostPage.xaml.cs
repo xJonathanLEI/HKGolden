@@ -45,7 +45,7 @@ namespace HKGolden
             if (post == null)
             {
                 HKGoldenAPI.Manager mgr = new HKGoldenAPI.Manager();
-                post = await mgr.LoadPost("12", "6507545");
+                post = await mgr.LoadPost("12", "6497824");
                 txtTitle.Text = post.postTitle;
                 loadedPageIndex = 0;
             }else

@@ -9,9 +9,8 @@
     Loading="Page_Loading">
     <RelativePanel Background="#FF222222">
         <TextBlock Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
-        <ScrollViewer RelativePanel.Below="txtTitle" Name="SV" ViewChanged="SV_ViewChanged" ViewChanging="SV_ViewChanging">
-            <StackPanel Name="SP">
-                <Image Source="res/stickers/hehe.gif" />
+        <ScrollViewer HorizontalAlignment="Stretch" RelativePanel.Below="txtTitle" Name="SV" ViewChanged="SV_ViewChanged" ViewChanging="SV_ViewChanging">
+            <StackPanel Name="SP" HorizontalAlignment="Stretch">
             </StackPanel>
         </ScrollViewer>
     </RelativePanel>

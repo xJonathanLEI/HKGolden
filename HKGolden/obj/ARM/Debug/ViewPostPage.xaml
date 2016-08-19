@@ -1,0 +1,18 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="HKGolden.ViewPostPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HKGolden"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+                          >
+    <RelativePanel Background="#FF222222">
+        <TextBlock x:ConnectionId='2' Name="txtTitle" Foreground="#AAFFAA" Text="TITLE" Margin="5" FontSize="20" />
+        <ScrollViewer x:ConnectionId='3' HorizontalAlignment="Stretch" RelativePanel.Below="txtTitle" Name="SV"                                                            >
+            <StackPanel x:ConnectionId='4' Name="SP" HorizontalAlignment="Stretch">
+            </StackPanel>
+        </ScrollViewer>
+    </RelativePanel>
+</Page>
+
