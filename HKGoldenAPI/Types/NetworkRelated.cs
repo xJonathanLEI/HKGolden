@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace HKGoldenAPI.Types
 {
-    public class Header
+    public class NameValuePair
     {
         public string name { get; set; }
         public string value { get; set; }
 
-        public Header() { }
-        public Header(string name, string value)
+        public NameValuePair() { }
+        public NameValuePair(string name, string value)
         {
             this.name = name;
             this.value = value;
         }
     }
+
+
 }
