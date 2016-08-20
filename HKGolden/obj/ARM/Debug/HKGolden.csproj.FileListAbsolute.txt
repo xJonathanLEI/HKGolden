@@ -202,3 +202,13 @@ C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\qualifiers.txt.inter
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\HtmlAgilityPack.pri.xml
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\ARM\Debug\PostEntryDisplayItem.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\ARM\Debug\ViewPostPage.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\PostEntryDisplayItem.g.i.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\PostEntryDisplayItem.g.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\ViewPostPage.g.i.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\ViewPostPage.g.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\PostEntryDisplayItem.xaml
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\ViewPostPage.xaml
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\PostEntryDisplayItem.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\ARM\Debug\ViewPostPage.xbf

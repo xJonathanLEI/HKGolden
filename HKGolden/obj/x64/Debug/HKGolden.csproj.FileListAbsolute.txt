@@ -202,3 +202,13 @@ C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ArticleDisplayItem.g
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ArticleDisplayItem.g.cs
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ArticleDisplayItem.xaml
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ArticleDisplayItem.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\PostEntryDisplayItem.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\ViewPostPage.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem.g.i.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem.g.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.g.i.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.g.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem.xaml
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.xaml
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.xbf

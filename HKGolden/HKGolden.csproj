@@ -101,7 +101,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PostEntryDisplayItem.xaml.cs">
+      <DependentUpon>PostEntryDisplayItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PostRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewPostPage.xaml.cs">
+      <DependentUpon>ViewPostPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -118,7 +125,51 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Res\101035.jpg" />
+    <Content Include="Res\stickers\%40.gif" />
+    <Content Include="Res\stickers\369.gif" />
+    <Content Include="Res\stickers\adore.gif" />
+    <Content Include="Res\stickers\agree.gif" />
+    <Content Include="Res\stickers\angel.gif" />
+    <Content Include="Res\stickers\angry.gif" />
+    <Content Include="Res\stickers\ass.gif" />
+    <Content Include="Res\stickers\banghead.gif" />
+    <Content Include="Res\stickers\biggrin.gif" />
+    <Content Include="Res\stickers\bomb.gif" />
+    <Content Include="Res\stickers\bouncer.gif" />
+    <Content Include="Res\stickers\bouncy.gif" />
+    <Content Include="Res\stickers\bye.gif" />
+    <Content Include="Res\stickers\censored.gif" />
+    <Content Include="Res\stickers\chicken.gif" />
+    <Content Include="Res\stickers\clown.gif" />
+    <Content Include="Res\stickers\cry.gif" />
+    <Content Include="Res\stickers\dead.gif" />
+    <Content Include="Res\stickers\devil.gif" />
+    <Content Include="Res\stickers\donno.gif" />
+    <Content Include="Res\stickers\fire.gif" />
+    <Content Include="Res\stickers\flowerface.gif" />
+    <Content Include="Res\stickers\frown.gif" />
+    <Content Include="Res\stickers\good.gif" />
+    <Content Include="Res\stickers\hehe.gif" />
+    <Content Include="Res\stickers\hoho.gif" />
+    <Content Include="Res\stickers\kill.gif" />
+    <Content Include="Res\stickers\kill2.gif" />
+    <Content Include="Res\stickers\kiss.gif" />
+    <Content Include="Res\stickers\love.gif" />
+    <Content Include="Res\stickers\no.gif" />
+    <Content Include="Res\stickers\offtopic.gif" />
+    <Content Include="Res\stickers\oh.gif" />
+    <Content Include="Res\stickers\photo.gif" />
+    <Content Include="Res\stickers\shocking.gif" />
+    <Content Include="Res\stickers\slick.gif" />
+    <Content Include="Res\stickers\smile.gif" />
+    <Content Include="Res\stickers\sosad.gif" />
+    <Content Include="Res\stickers\surprise.gif" />
+    <Content Include="Res\stickers\tongue.gif" />
+    <Content Include="Res\stickers\wink.gif" />
+    <Content Include="Res\stickers\wonder.gif" />
+    <Content Include="Res\stickers\wonder2.gif" />
+    <Content Include="Res\stickers\yipes.gif" />
+    <Content Include="Res\stickers\z.gif" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -132,6 +183,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PostEntryDisplayItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewPostPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

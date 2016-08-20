@@ -1,0 +1,19 @@
+﻿<UserControl
+    x:Class="HKGolden.PostEntryDisplayItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HKGolden"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <StackPanel Name="SP" Background="#88DDDDDD">
+        <RelativePanel Margin="0,8,0,0">
+            <TextBlock Name="txtUsername" Margin="10,0,0,0" Text="USERNAME" Foreground="#FFABCDEF" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
+            <TextBlock Name="txtTime" Margin="0,0,10,0" Text="TIME" Foreground="#FFAAAAAA" RelativePanel.AlignVerticalCenterWithPanel="True" RelativePanel.AlignRightWithPanel="True"/>
+        </RelativePanel>
+
+    </StackPanel>
+</UserControl>
