@@ -30,8 +30,14 @@ namespace HKGolden
 
         private async void Page_Loading(FrameworkElement sender, object args)
         {
+
+        }
+
+        private async void Button_Tapped(object sender, TappedRoutedEventArgs e)
+        {
             Manager mgr = new Manager();
-            await mgr.Login("14111812d@connect.polyu.hk", "k813pcy");
+            bool loginResult = await mgr.Login(txtName.Text, txtPass.Password);
+            txtResult.Text = loginResult ? "Successful" : "Failed";
         }
     }
 }

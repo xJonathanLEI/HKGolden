@@ -8,7 +8,29 @@
     mc:Ignorable="d"
     Loading="Page_Loading">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="#FF222222">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="240" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="NAME:" Foreground="#FFCCFFAA" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" />
+        <TextBox HorizontalAlignment="Stretch" Name="txtName" Text="14111812d@connect.polyu.hk" Foreground="#FFFFFFFF" FontSize="25" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" />
+        <TextBlock Text="PASS:" Foreground="#FFCCFFAA" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" />
+        <PasswordBox Name="txtPass" Password="k813pcy" Foreground="#FFFFFFFF" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="2" />
+        <Button Tapped="Button_Tapped" Content="LOGIN" VerticalAlignment="Stretch" Foreground="#FFCCFFAA" Background="#BBAAAAAA" Grid.Row="5" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Stretch" />
+        <TextBlock Name="txtResult" Text="RESULT" Foreground="#FFCCFFAA" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="7" Grid.ColumnSpan="2" Grid.Column="1" />
     </Grid>
 </Page>
