@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Security.Cryptography;
+using Windows.Security.Cryptography.Core;
+using Windows.Storage.Streams;
 
 namespace HKGoldenAPI
 {
@@ -72,6 +76,21 @@ namespace HKGoldenAPI
             for (int i = 0; i < sufs.Count; i++)
                 if (str.EndsWith(sufs[i])) return i;
             return -1;
+        }
+        
+        public static string GetMD5Hash(string source, bool lowerCase = true)
+        {
+            HashAlgorithmProvider pro = HashAlgorithmProvider.OpenAlgorithm(HashAlgorithmNames.Md5);
+            IBuffer buffUtf8Msg = CryptographicBuffer.ConvertStringToBinary(source, BinaryStringEncoding.Utf8);
+            IBuffer buffHash = pro.HashData(buffUtf8Msg);
+            byte[] data = buffHash.ToArray();
+            if (buffHash.Length != pro.HashLength)
+                throw new Exception("There was an error creating the hash");
+            StringBuilder sBuilder = new StringBuilder();
+            for (int i = 0; i < data.Length; i++)
+                sBuilder.Append(data[i].ToString("x2"));
+            if (!lowerCase) return sBuilder.ToString().ToUpper();
+            return sBuilder.ToString();
         }
     }
 }

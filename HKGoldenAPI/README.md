@@ -1,0 +1,2 @@
+﻿# What's in the API?
+In fact here are two APIs: one using the official API and the other using HTML parsing. The documentation of the official API will be posted on the GitHub wiki for reference in the future.
