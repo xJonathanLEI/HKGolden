@@ -212,3 +212,8 @@ C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.xaml
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\PostEntryDisplayItem.xbf
 C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\ViewPostPage.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\LoginPage.xbf
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\LoginPage.g.i.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\LoginPage.g.cs
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\LoginPage.xaml
+C:\Users\xJona\Source\Repos\HKGolden\HKGolden\obj\x64\Debug\LoginPage.xbf

@@ -54,6 +54,8 @@
       <RootEvent Name="Loading" />
       <RootEvent Name="SizeChanged" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="HKGolden.LoginPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
       <RootProperty Name="Name" />

@@ -132,27 +132,29 @@ namespace HKGolden.HKGolden_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "HKGolden.ArticleDisplayItem";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "HKGoldenAPI.Types.Article";
             _typeNameTable[3] = "Object";
-            _typeNameTable[4] = "HKGolden.MainPage";
+            _typeNameTable[4] = "HKGolden.LoginPage";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[6] = "HKGolden.PostEntryDisplayItem";
-            _typeNameTable[7] = "HKGoldenAPI.Types.PostEntry";
-            _typeNameTable[8] = "HKGolden.ViewPostPage";
+            _typeNameTable[6] = "HKGolden.MainPage";
+            _typeNameTable[7] = "HKGolden.PostEntryDisplayItem";
+            _typeNameTable[8] = "HKGoldenAPI.Types.PostEntry";
+            _typeNameTable[9] = "HKGolden.ViewPostPage";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::HKGolden.ArticleDisplayItem);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::HKGoldenAPI.Types.Article);
             _typeTable[3] = typeof(global::System.Object);
-            _typeTable[4] = typeof(global::HKGolden.MainPage);
+            _typeTable[4] = typeof(global::HKGolden.LoginPage);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[6] = typeof(global::HKGolden.PostEntryDisplayItem);
-            _typeTable[7] = typeof(global::HKGoldenAPI.Types.PostEntry);
-            _typeTable[8] = typeof(global::HKGolden.ViewPostPage);
+            _typeTable[6] = typeof(global::HKGolden.MainPage);
+            _typeTable[7] = typeof(global::HKGolden.PostEntryDisplayItem);
+            _typeTable[8] = typeof(global::HKGoldenAPI.Types.PostEntry);
+            _typeTable[9] = typeof(global::HKGolden.ViewPostPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -189,10 +191,11 @@ namespace HKGolden.HKGolden_XamlTypeInfo
 
         private object Activate_0_ArticleDisplayItem() { return new global::HKGolden.ArticleDisplayItem(); }
         private object Activate_2_Article() { return new global::HKGoldenAPI.Types.Article(); }
-        private object Activate_4_MainPage() { return new global::HKGolden.MainPage(); }
-        private object Activate_6_PostEntryDisplayItem() { return new global::HKGolden.PostEntryDisplayItem(); }
-        private object Activate_7_PostEntry() { return new global::HKGoldenAPI.Types.PostEntry(); }
-        private object Activate_8_ViewPostPage() { return new global::HKGolden.ViewPostPage(); }
+        private object Activate_4_LoginPage() { return new global::HKGolden.LoginPage(); }
+        private object Activate_6_MainPage() { return new global::HKGolden.MainPage(); }
+        private object Activate_7_PostEntryDisplayItem() { return new global::HKGolden.PostEntryDisplayItem(); }
+        private object Activate_8_PostEntry() { return new global::HKGoldenAPI.Types.PostEntry(); }
+        private object Activate_9_ViewPostPage() { return new global::HKGolden.ViewPostPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -226,9 +229,9 @@ namespace HKGolden.HKGolden_XamlTypeInfo
                 xamlType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  HKGolden.MainPage
+            case 4:   //  HKGolden.LoginPage
                 userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_LoginPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -237,23 +240,30 @@ namespace HKGolden.HKGolden_XamlTypeInfo
                 xamlType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  HKGolden.PostEntryDisplayItem
+            case 6:   //  HKGolden.MainPage
+                userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  HKGolden.PostEntryDisplayItem
                 userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_6_PostEntryDisplayItem;
+                userType.Activator = Activate_7_PostEntryDisplayItem;
                 userType.AddMemberName("displayEntry");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  HKGoldenAPI.Types.PostEntry
+            case 8:   //  HKGoldenAPI.Types.PostEntry
                 userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 8:   //  HKGolden.ViewPostPage
+            case 9:   //  HKGolden.ViewPostPage
                 userType = new global::HKGolden.HKGolden_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_ViewPostPage;
+                userType.Activator = Activate_9_ViewPostPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

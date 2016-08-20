@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-08-19T16:13:54.834</Modified>
+      <Modified>2016-08-20T04:13:19.450</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\HKGolden.exe">
       <PackagePath>entrypoint\HKGolden.exe</PackagePath>
-      <Modified>2016-08-19T16:13:53.517</Modified>
+      <Modified>2016-08-20T04:13:15.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\.nuget\packages\HtmlAgilityPack\1.4.9.5\lib\NetCore45\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -454,229 +454,229 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGoldenAPI\bin\x64\Debug\HKGoldenAPI.dll">
       <PackagePath>HKGoldenAPI.dll</PackagePath>
-      <Modified>2016-08-19T09:12:26.853</Modified>
+      <Modified>2016-08-20T04:13:10.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-08-17T05:52:46.198</Modified>
+      <Modified>2016-08-20T03:20:38.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-08-20T03:20:24.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\%40.gif">
       <PackagePath>Res\stickers\%40.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.016</Modified>
+      <Modified>2016-08-20T03:20:38.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\369.gif">
       <PackagePath>Res\stickers\369.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.030</Modified>
+      <Modified>2016-08-20T03:20:38.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\adore.gif">
       <PackagePath>Res\stickers\adore.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.043</Modified>
+      <Modified>2016-08-20T03:20:38.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\agree.gif">
       <PackagePath>Res\stickers\agree.gif</PackagePath>
-      <Modified>2016-08-19T08:43:52.604</Modified>
+      <Modified>2016-08-20T03:20:38.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\angel.gif">
       <PackagePath>Res\stickers\angel.gif</PackagePath>
-      <Modified>2016-08-19T08:56:12.141</Modified>
+      <Modified>2016-08-20T03:20:38.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\angry.gif">
       <PackagePath>Res\stickers\angry.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.058</Modified>
+      <Modified>2016-08-20T03:20:38.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\ass.gif">
       <PackagePath>Res\stickers\ass.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.074</Modified>
+      <Modified>2016-08-20T03:20:38.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\banghead.gif">
       <PackagePath>Res\stickers\banghead.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.088</Modified>
+      <Modified>2016-08-20T03:20:38.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\biggrin.gif">
       <PackagePath>Res\stickers\biggrin.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.104</Modified>
+      <Modified>2016-08-20T03:20:38.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bomb.gif">
       <PackagePath>Res\stickers\bomb.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.120</Modified>
+      <Modified>2016-08-20T03:20:38.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bouncer.gif">
       <PackagePath>Res\stickers\bouncer.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.136</Modified>
+      <Modified>2016-08-20T03:20:38.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bouncy.gif">
       <PackagePath>Res\stickers\bouncy.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.144</Modified>
+      <Modified>2016-08-20T03:20:38.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\bye.gif">
       <PackagePath>Res\stickers\bye.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.156</Modified>
+      <Modified>2016-08-20T03:20:38.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\censored.gif">
       <PackagePath>Res\stickers\censored.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.189</Modified>
+      <Modified>2016-08-20T03:20:38.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\chicken.gif">
       <PackagePath>Res\stickers\chicken.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.240</Modified>
+      <Modified>2016-08-20T03:20:38.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\clown.gif">
       <PackagePath>Res\stickers\clown.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.445</Modified>
+      <Modified>2016-08-20T03:20:38.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\cry.gif">
       <PackagePath>Res\stickers\cry.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.673</Modified>
+      <Modified>2016-08-20T03:20:38.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\dead.gif">
       <PackagePath>Res\stickers\dead.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.704</Modified>
+      <Modified>2016-08-20T03:20:38.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\devil.gif">
       <PackagePath>Res\stickers\devil.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.722</Modified>
+      <Modified>2016-08-20T03:20:38.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\donno.gif">
       <PackagePath>Res\stickers\donno.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.744</Modified>
+      <Modified>2016-08-20T03:20:38.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\fire.gif">
       <PackagePath>Res\stickers\fire.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.766</Modified>
+      <Modified>2016-08-20T03:20:38.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\flowerface.gif">
       <PackagePath>Res\stickers\flowerface.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.792</Modified>
+      <Modified>2016-08-20T03:20:38.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\frown.gif">
       <PackagePath>Res\stickers\frown.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.813</Modified>
+      <Modified>2016-08-20T03:20:38.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\good.gif">
       <PackagePath>Res\stickers\good.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.841</Modified>
+      <Modified>2016-08-20T03:20:38.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\hehe.gif">
       <PackagePath>Res\stickers\hehe.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.885</Modified>
+      <Modified>2016-08-20T03:20:38.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\hoho.gif">
       <PackagePath>Res\stickers\hoho.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.906</Modified>
+      <Modified>2016-08-20T03:20:38.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kill.gif">
       <PackagePath>Res\stickers\kill.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.924</Modified>
+      <Modified>2016-08-20T03:20:38.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kill2.gif">
       <PackagePath>Res\stickers\kill2.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.953</Modified>
+      <Modified>2016-08-20T03:20:38.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\kiss.gif">
       <PackagePath>Res\stickers\kiss.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.975</Modified>
+      <Modified>2016-08-20T03:20:38.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\love.gif">
       <PackagePath>Res\stickers\love.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.777</Modified>
+      <Modified>2016-08-20T03:20:38.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\no.gif">
       <PackagePath>Res\stickers\no.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.793</Modified>
+      <Modified>2016-08-20T03:20:38.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\offtopic.gif">
       <PackagePath>Res\stickers\offtopic.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.804</Modified>
+      <Modified>2016-08-20T03:20:38.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\oh.gif">
       <PackagePath>Res\stickers\oh.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.829</Modified>
+      <Modified>2016-08-20T03:20:38.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\photo.gif">
       <PackagePath>Res\stickers\photo.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.845</Modified>
+      <Modified>2016-08-20T03:20:38.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\shocking.gif">
       <PackagePath>Res\stickers\shocking.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.859</Modified>
+      <Modified>2016-08-20T03:20:38.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\slick.gif">
       <PackagePath>Res\stickers\slick.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.875</Modified>
+      <Modified>2016-08-20T03:20:38.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\smile.gif">
       <PackagePath>Res\stickers\smile.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.892</Modified>
+      <Modified>2016-08-20T03:20:38.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\sosad.gif">
       <PackagePath>Res\stickers\sosad.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.909</Modified>
+      <Modified>2016-08-20T03:20:38.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\surprise.gif">
       <PackagePath>Res\stickers\surprise.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.923</Modified>
+      <Modified>2016-08-20T03:20:38.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\tongue.gif">
       <PackagePath>Res\stickers\tongue.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.933</Modified>
+      <Modified>2016-08-20T03:20:38.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wink.gif">
       <PackagePath>Res\stickers\wink.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.949</Modified>
+      <Modified>2016-08-20T03:20:38.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wonder.gif">
       <PackagePath>Res\stickers\wonder.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.964</Modified>
+      <Modified>2016-08-20T03:20:38.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\wonder2.gif">
       <PackagePath>Res\stickers\wonder2.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.975</Modified>
+      <Modified>2016-08-20T03:20:38.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\yipes.gif">
       <PackagePath>Res\stickers\yipes.gif</PackagePath>
-      <Modified>2016-08-19T09:09:23.988</Modified>
+      <Modified>2016-08-20T03:20:38.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\Res\stickers\z.gif">
       <PackagePath>Res\stickers\z.gif</PackagePath>
-      <Modified>2016-08-19T09:09:24.001</Modified>
+      <Modified>2016-08-20T03:20:38.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\HKGolden.xr.xml">
       <PackagePath>HKGolden.xr.xml</PackagePath>
-      <Modified>2016-08-19T16:13:53.289</Modified>
+      <Modified>2016-08-20T04:13:15.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -684,11 +684,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-08-19T16:13:54.530</Modified>
+      <Modified>2016-08-20T04:13:18.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xJona\Source\Repos\HKGolden\HKGolden\bin\x64\Debug\Core\HKGolden.exe">
       <PackagePath>HKGolden.exe</PackagePath>
-      <Modified>2016-08-19T16:13:54.828</Modified>
+      <Modified>2016-08-20T04:13:19.430</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
